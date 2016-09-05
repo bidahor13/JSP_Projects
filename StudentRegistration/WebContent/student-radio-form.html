@@ -1,0 +1,55 @@
+<html>
+
+<head>
+<title>Student Registration Portal for Project</title>
+</head>
+
+<body>
+
+</body>
+
+       <!-- GET: data from the student -->
+<form action="student-radio-response.jsp">
+	    First Name: <input type="text" name="firstName" /> 
+	    <br></br> 
+	    
+	     Last Name: <input type="text" name="lastName" />
+	     <br></br> 
+	     
+	     <!-- Age: <input type="text" name="age" /> 
+		<br></br>  -->
+		
+		StudentID: <input type="text" name="studentid" /> 
+		<br></br> 
+		
+		
+		  <!-- Create drop down box to select the language option -->
+		Language: <select name= "language">
+		<option> Haskell</option>
+		<option> C#</option>
+		<option> Java</option>
+		<option> Python</option>
+		<option> Ruby</option>
+		<option> Rust</option>
+		</select> 
+		
+		<br></br>
+		<!-- select radio button for  favorite frame-work -->
+		Favorite Frame work:<br></br> 
+		<input type="radio" name="favoriteframework" value=".NET"> ASP.NET
+		<input type="radio" name="favoriteframework" value="Rails">  Rails
+		<input type="radio" name="favoriteframework" value="Django"> Django
+		<input type="radio" name="favoriteframework" value="Flask"> Flask
+		<input type="radio" name="favoriteframework" value="Hibernate"> Hibernate
+		<br></br> 
+		
+		<!-- submit button -->
+		<input type="submit" value="submit" />
+		<br></br> 
+		
+		
+<h2>Registration is complete</h2>
+
+</form>
+
+</html>
