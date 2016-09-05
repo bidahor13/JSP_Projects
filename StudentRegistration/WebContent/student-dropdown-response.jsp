@@ -5,8 +5,7 @@
 </head>
 
 <body>
-
-The student is confirmed page: <br></br>
+Student Confirmation Page : <br></br>
 First Name: ${param.firstName} <br></br>
 Last Name: ${param.lastName} <br></br>
 Student Age: ${param.age}<br></br>
