@@ -1,25 +1,18 @@
 <html>
 
 <head>
-<title>Student Confirmation Page</title>
+<title>Student Confirmation Title</title>
 </head>
 
 <body>
 
-The student project registration info: <br></br>
-
+STUDENT CONFIRMATION PAGE: <br></br>
 First Name: ${param.firstName} <br></br>
 Last Name: ${param.lastName} <br></br>
 STUDENT ID: ${param.studentid}<br></br>
-<%-- Student Age: ${param.age}<br></br> --%>
-
-<br></br>
- Student's favorite programming language: ${param.language}<br></br> 
-Student's favorite framework is: ${param.favoriteframework}<br></br>
-
 
 <!-- display list of multiple languages -->
-Additional languages:
+
 <ul>
     <%
         String[] langs = request.getParameterValues("multiplelanguage");
@@ -29,6 +22,11 @@ Additional languages:
     
     %>
 </ul>
+
+
+<%-- Student Age: ${param.age}<br></br> --%>
+<%-- Student's favorite programming language: ${param.language}<br></br> --%>
+
 
 <p align="center">
 last updated: <%= new java.util.Date() %>
